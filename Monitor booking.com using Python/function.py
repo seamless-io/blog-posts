@@ -5,8 +5,6 @@ import requests
 from bs4 import BeautifulSoup
 
 session = requests.Session()
-today = datetime.datetime.now()
-tomorrow = today + datetime.timedelta(1)
 
 REQUEST_HEADER = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 "
@@ -14,7 +12,7 @@ REQUEST_HEADER = {
 BOOKING_URL = 'https://www.booking.com'
 
 # https://core.telegram.org/bots
-BOT_API_KEY = 'your-telegram-bot-api-key'
+BOT_API_KEY = '1252084253:AAGaOHTWVs0aHSQeAGaJ9ubZx4uUPoTM1_U'
 CHANNEL_NAME = '@booking_monitoring'
 
 
