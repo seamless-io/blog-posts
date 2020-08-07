@@ -12,7 +12,7 @@ REQUEST_HEADER = {
 BOOKING_URL = 'https://www.booking.com'
 
 # https://core.telegram.org/bots
-BOT_API_KEY = '1252084253:AAGaOHTWVs0aHSQeAGaJ9ubZx4uUPoTM1_U'
+BOT_API_KEY = 'your-api-key'
 CHANNEL_NAME = '@booking_monitoring'
 
 
